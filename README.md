@@ -9,9 +9,8 @@ URL: http://ec2-18-216-46-22.us-east-2.compute.amazonaws.com:9090/
 
 NOTE : The API is Swagger UI enabled, all the below APIs can be accessed on a browser from the above URL
 
-================================
-Order Creation:                |
-================================
+
+# Order Creation:                
 
 API  : /providus/order 
 Type : POST
@@ -26,16 +25,13 @@ Body : {
     }
   ]
 }
-==================================
-Order Status Update:             |
-==================================
+
+# Order Status Update:             
 API  : /providus/order/status/{id}
 Type : PUT
 Parameters : id=1, status=COMPLETED
 
-===================================
-Retrieve over due orders          |
-===================================
+# Retrieve over due orders          
 API  : /providus/order 
 Type : GET
 Parameters : filter=true //fetch only over due orders, filter=false //fetch all orders
