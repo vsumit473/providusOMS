@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 
- * @author SUMIT VERMA
+ * @author SUMIT VERMA.
  *
  */
 @SpringBootApplication
